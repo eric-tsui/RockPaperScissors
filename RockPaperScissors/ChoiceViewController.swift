@@ -43,7 +43,7 @@ class ChoiceViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-    let shapeUI = ["paper"/*tag 0*/, "rock"/*tag 1*/, "scissors"/*tag 2*/]
+    let shapeUI = ["paper"/*tag 0*/, "scissors"/*tag 1*/, "rock"/*tag 2*/]
     private func getUserChoiceShape(_ sender: UIButton) -> Shape {
         let shape = shapeUI[sender.tag]
         return Shape(rawValue: shape)!
